@@ -12,7 +12,6 @@ E:\C# Win Forms\Big and Small\Big and Small\bin\Debug\Big and Small.application
 E:\C# Win Forms\Big and Small\Big and Small\obj\Debug\Big and Small.TrustInfo.xml
 E:\C# Win Forms\Big and Small\Big and Small\obj\Debug\Big and Small.exe.manifest
 E:\C# Win Forms\Big and Small\Big and Small\obj\Debug\Big and Small.application
-E:\C# Win Forms\Big and Small\Big and Small\obj\Debug\Big_and_Small.Design.resources
 E:\C# Win Forms\Big and Small\Big and Small\obj\Debug\Big_and_Small.frmMain.resources
 E:\C# Win Forms\Big and Small\Big and Small\obj\Debug\Big_and_Small.frmSplashScreen.resources
 E:\C# Win Forms\Big and Small\Big and Small\obj\Debug\Big and Small.csprojAssemblyReference.cache

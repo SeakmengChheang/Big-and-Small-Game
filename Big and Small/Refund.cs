@@ -17,11 +17,11 @@ namespace Big_and_Small
             InitializeComponent();
         }
         static frmMain obj = new frmMain();
-        static decimal moneyRemain = obj.getMoney;
-        static decimal borrowMoney = obj.getBorrowMoney;
+        static double moneyRemain = obj.getMoney;
+        static double borrowMoney = obj.getBorrowMoney;
         private void btnRefund_Click(object sender, EventArgs e)
         {
-            decimal refundMoney = decimal.Parse(txtMoneyRefund.Text);
+            double refundMoney = double.Parse(txtMoneyRefund.Text);
             if(refundMoney > borrowMoney)
             {
                 MessageBox.Show("អ្នកមិនអាចសងលើសចំនួនជំពាក់បានទេ។");
@@ -48,8 +48,8 @@ namespace Big_and_Small
         {
             try
             {
-                decimal refund = decimal.Parse(txtMoneyRefund.Text);
-                decimal remain = moneyRemain - refund;
+                double refund = double.Parse(txtMoneyRefund.Text);
+                double remain = moneyRemain - refund;
                 lblMoneyRemain.Text = remain.ToString("#,##0.00");
             }
             catch (Exception) { lblMoneyRemain.Text = "សូមបញ្ចូលលេខឲ្យបានត្រឹមត្រូវ។"; };

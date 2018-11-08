@@ -106,12 +106,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Design.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Design.Designer.cs">
-      <DependentUpon>Design.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -132,9 +126,6 @@
     <Compile Include="Refund.Designer.cs">
       <DependentUpon>Refund.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Design.resx">
-      <DependentUpon>Design.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>

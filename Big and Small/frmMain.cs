@@ -15,10 +15,10 @@ namespace Big_and_Small
         private static bool runFirstTime = true;
         private static string FolderPath = Environment.CurrentDirectory;
         private static Random r = new Random();
-        private static decimal money = 10000;
-        private static decimal borrow = 0;
-        private static decimal big = 0;
-        private static decimal small = 0;
+        private static double money = 10000;
+        private static double borrow = 0;
+        private static double big = 0;
+        private static double small = 0;
         private static Thread t = new Thread(() => SplashForm());
 
         private static void SplashForm()
@@ -56,108 +56,108 @@ namespace Big_and_Small
             await Task.Delay(500, tokenSource.Token);
         }
 
-        #region Encrypt Money
+        //#region Encrypt Money
 
-        private static string encrypt(decimal number)
-        {
-            string sNumber = number.ToString();
-            int[] temp = new int[sNumber.Length];
-            for (int i = 0; i < sNumber.Length; i++)
-                temp[i] = int.Parse(sNumber[i].ToString());
+        //private static string encrypt(decimal number)
+        //{
+        //    string sNumber = number.ToString();
+        //    int[] temp = new int[sNumber.Length];
+        //    for (int i = 0; i < sNumber.Length; i++)
+        //        temp[i] = int.Parse(sNumber[i].ToString());
 
-            StringBuilder sendToFile = new StringBuilder();
-            for (int i = 0; i < temp.Length; i++)
-            {
-                temp[i] += i + 1;
-                sendToFile.Append(translateNumtoChar(temp[i]));
-            }
-            return sendToFile.ToString();
-        }
+        //    StringBuilder sendToFile = new StringBuilder();
+        //    for (int i = 0; i < temp.Length; i++)
+        //    {
+        //        temp[i] += i + 1;
+        //        sendToFile.Append(translateNumtoChar(temp[i]));
+        //    }
+        //    return sendToFile.ToString();
+        //}
 
-        private static decimal decrypt(string numberString)
-        {
-            int[] arrayTemp = new int[numberString.Length];
-            StringBuilder sbuilder = new StringBuilder();
-            for (int i = 0; i < numberString.Length; i++)
-            {
-                arrayTemp[i] = translateChartoNum(numberString[i]);
-                arrayTemp[i] -= i + 1;
-                sbuilder.Append(arrayTemp[i].ToString());
-            }
+        //private static decimal decrypt(string numberString)
+        //{
+        //    int[] arrayTemp = new int[numberString.Length];
+        //    StringBuilder sbuilder = new StringBuilder();
+        //    for (int i = 0; i < numberString.Length; i++)
+        //    {
+        //        arrayTemp[i] = translateChartoNum(numberString[i]);
+        //        arrayTemp[i] -= i + 1;
+        //        sbuilder.Append(arrayTemp[i].ToString());
+        //    }
 
-            decimal deBack = decimal.Parse(sbuilder.ToString());
-            return deBack;
-        }
+        //    decimal deBack = decimal.Parse(sbuilder.ToString());
+        //    return deBack;
+        //}
 
-        private static int translateChartoNum(char character)
-        {
-            switch (character)
-            {
-                case 'a': return 0;
-                case 'b': return 1;
-                case 'c': return 2;
-                case 'd': return 3;
-                case 'e': return 4;
-                case 'f': return 5;
-                case 'g': return 6;
-                case 'h': return 7;
-                case 'i': return 8;
-                case 'j': return 9;
-                case 'k': return 10;
-                case 'l': return 11;
-                case 'm': return 12;
-                case 'n': return 13;
-                case 'o': return 14;
-                case 'p': return 15;
-                case 'q': return 16;
-                case 'r': return 17;
-                case 's': return 18;
-                case 't': return 19;
-                case 'u': return 20;
-                case 'v': return 21;
-                case 'w': return 22;
-                case 'x': return 23;
-                case 'y': return 24;
-                case 'z': return 25;
-            }
-            return 0;
-        }
+        //private static int translateChartoNum(char character)
+        //{
+        //    switch (character)
+        //    {
+        //        case 'a': return 0;
+        //        case 'b': return 1;
+        //        case 'c': return 2;
+        //        case 'd': return 3;
+        //        case 'e': return 4;
+        //        case 'f': return 5;
+        //        case 'g': return 6;
+        //        case 'h': return 7;
+        //        case 'i': return 8;
+        //        case 'j': return 9;
+        //        case 'k': return 10;
+        //        case 'l': return 11;
+        //        case 'm': return 12;
+        //        case 'n': return 13;
+        //        case 'o': return 14;
+        //        case 'p': return 15;
+        //        case 'q': return 16;
+        //        case 'r': return 17;
+        //        case 's': return 18;
+        //        case 't': return 19;
+        //        case 'u': return 20;
+        //        case 'v': return 21;
+        //        case 'w': return 22;
+        //        case 'x': return 23;
+        //        case 'y': return 24;
+        //        case 'z': return 25;
+        //    }
+        //    return 0;
+        //}
 
-        private static char translateNumtoChar(int number)
-        {
-            switch (number)
-            {
-                case 0: return 'a';
-                case 1: return 'b';
-                case 2: return 'c';
-                case 3: return 'd';
-                case 4: return 'e';
-                case 5: return 'f';
-                case 6: return 'g';
-                case 7: return 'h';
-                case 8: return 'i';
-                case 9: return 'j';
-                case 10: return 'k';
-                case 11: return 'l';
-                case 12: return 'm';
-                case 13: return 'n';
-                case 14: return 'o';
-                case 15: return 'p';
-                case 16: return 'q';
-                case 17: return 'r';
-                case 18: return 's';
-                case 19: return 't';
-                case 20: return 'u';
-                case 21: return 'v';
-                case 22: return 'w';
-                case 23: return 'x';
-                case 24: return 'y';
-                case 25: return 'z';
-            }
-            return ' ';
-        }
+        //private static char translateNumtoChar(int number)
+        //{
+        //    switch (number)
+        //    {
+        //        case 0: return 'a';
+        //        case 1: return 'b';
+        //        case 2: return 'c';
+        //        case 3: return 'd';
+        //        case 4: return 'e';
+        //        case 5: return 'f';
+        //        case 6: return 'g';
+        //        case 7: return 'h';
+        //        case 8: return 'i';
+        //        case 9: return 'j';
+        //        case 10: return 'k';
+        //        case 11: return 'l';
+        //        case 12: return 'm';
+        //        case 13: return 'n';
+        //        case 14: return 'o';
+        //        case 15: return 'p';
+        //        case 16: return 'q';
+        //        case 17: return 'r';
+        //        case 18: return 's';
+        //        case 19: return 't';
+        //        case 20: return 'u';
+        //        case 21: return 'v';
+        //        case 22: return 'w';
+        //        case 23: return 'x';
+        //        case 24: return 'y';
+        //        case 25: return 'z';
+        //    }
+        //    return ' ';
+        //}
 
-        #endregion Encrypt Money
+        //#endregion Encrypt Money
 
         #region load image from files
 
@@ -217,8 +217,8 @@ namespace Big_and_Small
                 txtSmall.Text = "0";
             try
             {
-                big = decimal.Parse(txtBig.Text);
-                small = decimal.Parse(txtSmall.Text);
+                big = double.Parse(txtBig.Text);
+                small = double.Parse(txtSmall.Text);
             }
             catch (Exception)
             {
@@ -229,7 +229,7 @@ namespace Big_and_Small
             }
 
             //use tempMoney to find USER win or lose
-            decimal tempMoney = money;
+            double tempMoney = money;
 
             //if negative amount of money is input
             if (big < 0 || small < 0)
@@ -309,7 +309,7 @@ namespace Big_and_Small
 
             Thread.Sleep(100);
             lblMoney.Text = money.ToString("#,##0.00");
-            decimal findWL = money - tempMoney;
+            double findWL = money - tempMoney;
             if (findWL > 0)
             {
                 lblSign.Text = "+";
@@ -375,8 +375,8 @@ namespace Big_and_Small
             this.TopMost = true;
             if (backFromRefund)
             {
-                decimal pastBorrow = decimal.Parse(lblBorrow.Text);
-                decimal nowBorrow = pastBorrow - borrow;
+                double pastBorrow = double.Parse(lblBorrow.Text);
+                double nowBorrow = pastBorrow - borrow;
                 lblSign.Text = "-";
                 lblPlus.Text = Math.Abs(nowBorrow).ToString("#,##0.00");
                 backFromRefund = false;
@@ -389,16 +389,18 @@ namespace Big_and_Small
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
             lblSign.Text = "+";
             lblPlus.Text = "00.00";
             lblConditionWL.Text = "";
+
+            if (!File.Exists(FolderPath + "\\Datas.txt")) {
+                File.Create(FolderPath + "\\Datas.txt").Close();
+                return;
+            }
             using (StreamReader sr = new StreamReader(FolderPath + "\\Datas.txt"))
             {
-                money = decrypt(sr.ReadLine());
-                borrow = decrypt(sr.ReadLine());
-                //money = decimal.Parse(sr.ReadLine());
-                //borrow = decimal.Parse(sr.ReadLine());
+                money = double.Parse(sr.ReadLine());
+                borrow = double.Parse(sr.ReadLine());
             }
             
         }
@@ -407,8 +409,8 @@ namespace Big_and_Small
         {
             using (StreamWriter sw = new StreamWriter(FolderPath + "\\Datas.txt"))
             {
-                sw.WriteLine(encrypt(money));
-                sw.WriteLine(encrypt(borrow));
+                sw.WriteLine(money);
+                sw.WriteLine(borrow);
                 //sw.WriteLine(money.ToString());
                 //sw.WriteLine(borrow.ToString());
             }
@@ -487,7 +489,7 @@ namespace Big_and_Small
             btnSmallAllin.Enabled = true;
             try
             {
-                big = decimal.Parse(txtBig.Text);
+                big = double.Parse(txtBig.Text);
             }
             catch (Exception) { }
         }
@@ -499,7 +501,7 @@ namespace Big_and_Small
             btnSmallAllin.Enabled = true;
             try
             {
-                small = decimal.Parse(txtSmall.Text);
+                small = double.Parse(txtSmall.Text);
             }
             catch (Exception) { }
         }
@@ -632,10 +634,8 @@ namespace Big_and_Small
             Application.Exit();
         }
 
-
-
         #region Method to interact with Refund.cs
-        public decimal getMoney
+        public double getMoney
         {
             get
             {
@@ -643,7 +643,7 @@ namespace Big_and_Small
             }
         }
 
-        public decimal getBorrowMoney
+        public double getBorrowMoney
         {
             get
             {
@@ -651,7 +651,7 @@ namespace Big_and_Small
             }
         }
 
-        public decimal setMoney
+        public double setMoney
         {
             set
             {
@@ -659,7 +659,7 @@ namespace Big_and_Small
             }
         }
 
-        public decimal setBorrowMoney
+        public double setBorrowMoney
         {
             set
             {

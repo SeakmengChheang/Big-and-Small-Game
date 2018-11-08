@@ -44,14 +44,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Big and Small.exe" size="2261504">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Big and Small.exe" size="2222080">
       <assemblyIdentity name="Big and Small" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>YCyfHiAwJLmOKSwKOkkwBklZ6mNgofm0KCTN9rDPiCs=</dsig:DigestValue>
+        <dsig:DigestValue>rbzJFi7bM684Fo93xZ6sYHVc9D0ZAQ59irRdt/uFwk4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
