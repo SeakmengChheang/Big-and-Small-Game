@@ -1,0 +1,22 @@
+E:\C# Win Forms\Big and Small\Big and Small\bin\Debug\Big and Small.exe.config
+E:\C# Win Forms\Big and Small\Big and Small\bin\Debug\Big and Small.exe
+E:\C# Win Forms\Big and Small\Big and Small\bin\Debug\Big and Small.pdb
+E:\C# Win Forms\Big and Small\Big and Small\obj\Debug\Big_and_Small.Properties.Resources.resources
+E:\C# Win Forms\Big and Small\Big and Small\obj\Debug\Big and Small.csproj.GenerateResource.cache
+E:\C# Win Forms\Big and Small\Big and Small\obj\Debug\Big and Small.csproj.CoreCompileInputs.cache
+E:\C# Win Forms\Big and Small\Big and Small\obj\Debug\Big and Small.exe
+E:\C# Win Forms\Big and Small\Big and Small\obj\Debug\Big and Small.pdb
+E:\C# Win Forms\Big and Small\Big and Small\obj\Debug\Big_and_Small.Refund.resources
+E:\C# Win Forms\Big and Small\Big and Small\bin\Debug\Big and Small.exe.manifest
+E:\C# Win Forms\Big and Small\Big and Small\bin\Debug\Big and Small.application
+E:\C# Win Forms\Big and Small\Big and Small\obj\Debug\Big and Small.TrustInfo.xml
+E:\C# Win Forms\Big and Small\Big and Small\obj\Debug\Big and Small.exe.manifest
+E:\C# Win Forms\Big and Small\Big and Small\obj\Debug\Big and Small.application
+E:\C# Win Forms\Big and Small\Big and Small\obj\Debug\Big_and_Small.Design.resources
+E:\C# Win Forms\Big and Small\Big and Small\obj\Debug\Big_and_Small.frmMain.resources
+E:\C# Win Forms\Big and Small\Big and Small\obj\Debug\Big_and_Small.frmSplashScreen.resources
+E:\C# Win Forms\Big and Small\Big and Small\obj\Debug\Big and Small.csprojAssemblyReference.cache
+E:\C# Win Forms\Big and Small\Big and Small\bin\Debug\MetroFramework.Design.dll
+E:\C# Win Forms\Big and Small\Big and Small\bin\Debug\MetroFramework.dll
+E:\C# Win Forms\Big and Small\Big and Small\bin\Debug\MetroFramework.Fonts.dll
+E:\C# Win Forms\Big and Small\Big and Small\obj\Debug\Big and Small.csproj.CopyComplete

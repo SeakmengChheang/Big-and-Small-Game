@@ -1,0 +1,5 @@
+-Install "Kh BL BrushHand.ttf" before play
+-Do not delete "Datas.txt" file because it saves your game
+ datas.
+-To uninstall this GAME kindly just delete the folder 
+-If there any problem or bug, please contact my GitHub  account https://github.com/SeakmengChheang
