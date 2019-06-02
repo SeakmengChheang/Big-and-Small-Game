@@ -19,3 +19,24 @@ E:\C# Win Forms\Big and Small\Big and Small\bin\Debug\MetroFramework.Design.dll
 E:\C# Win Forms\Big and Small\Big and Small\bin\Debug\MetroFramework.dll
 E:\C# Win Forms\Big and Small\Big and Small\bin\Debug\MetroFramework.Fonts.dll
 E:\C# Win Forms\Big and Small\Big and Small\obj\Debug\Big and Small.csproj.CopyComplete
+C:\Users\Raymond MLD\Desktop\Big-and-Small-Game\Big and Small\bin\Debug\Big and Small.exe.config
+C:\Users\Raymond MLD\Desktop\Big-and-Small-Game\Big and Small\bin\Debug\Big and Small.exe.manifest
+C:\Users\Raymond MLD\Desktop\Big-and-Small-Game\Big and Small\bin\Debug\Big and Small.application
+C:\Users\Raymond MLD\Desktop\Big-and-Small-Game\Big and Small\bin\Debug\Big and Small.exe
+C:\Users\Raymond MLD\Desktop\Big-and-Small-Game\Big and Small\bin\Debug\Big and Small.pdb
+C:\Users\Raymond MLD\Desktop\Big-and-Small-Game\Big and Small\bin\Debug\MetroFramework.Design.dll
+C:\Users\Raymond MLD\Desktop\Big-and-Small-Game\Big and Small\bin\Debug\MetroFramework.dll
+C:\Users\Raymond MLD\Desktop\Big-and-Small-Game\Big and Small\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Raymond MLD\Desktop\Big-and-Small-Game\Big and Small\obj\Debug\Big and Small.csprojAssemblyReference.cache
+C:\Users\Raymond MLD\Desktop\Big-and-Small-Game\Big and Small\obj\Debug\Big_and_Small.frmMain.resources
+C:\Users\Raymond MLD\Desktop\Big-and-Small-Game\Big and Small\obj\Debug\Big_and_Small.frmSplashScreen.resources
+C:\Users\Raymond MLD\Desktop\Big-and-Small-Game\Big and Small\obj\Debug\Big_and_Small.Properties.Resources.resources
+C:\Users\Raymond MLD\Desktop\Big-and-Small-Game\Big and Small\obj\Debug\Big_and_Small.Refund.resources
+C:\Users\Raymond MLD\Desktop\Big-and-Small-Game\Big and Small\obj\Debug\Big and Small.csproj.GenerateResource.cache
+C:\Users\Raymond MLD\Desktop\Big-and-Small-Game\Big and Small\obj\Debug\Big and Small.csproj.CoreCompileInputs.cache
+C:\Users\Raymond MLD\Desktop\Big-and-Small-Game\Big and Small\obj\Debug\Big and Small.TrustInfo.xml
+C:\Users\Raymond MLD\Desktop\Big-and-Small-Game\Big and Small\obj\Debug\Big and Small.exe.manifest
+C:\Users\Raymond MLD\Desktop\Big-and-Small-Game\Big and Small\obj\Debug\Big and Small.application
+C:\Users\Raymond MLD\Desktop\Big-and-Small-Game\Big and Small\obj\Debug\Big and Small.csproj.CopyComplete
+C:\Users\Raymond MLD\Desktop\Big-and-Small-Game\Big and Small\obj\Debug\Big and Small.exe
+C:\Users\Raymond MLD\Desktop\Big-and-Small-Game\Big and Small\obj\Debug\Big and Small.pdb

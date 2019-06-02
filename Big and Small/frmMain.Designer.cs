@@ -63,6 +63,7 @@
             this.btnSmallAllin = new System.Windows.Forms.Button();
             this.btnBigAllin = new System.Windows.Forms.Button();
             this.pictureExit = new System.Windows.Forms.PictureBox();
+            this.label11 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picResult1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picResult2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picResult3)).BeginInit();
@@ -494,15 +495,26 @@
             // 
             this.pictureExit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureExit.Image = ((System.Drawing.Image)(resources.GetObject("pictureExit.Image")));
-            this.pictureExit.Location = new System.Drawing.Point(1171, 657);
+            this.pictureExit.Location = new System.Drawing.Point(1185, 662);
             this.pictureExit.Name = "pictureExit";
-            this.pictureExit.Size = new System.Drawing.Size(81, 69);
+            this.pictureExit.Size = new System.Drawing.Size(67, 64);
             this.pictureExit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureExit.TabIndex = 44;
             this.pictureExit.TabStop = false;
             this.pictureExit.Click += new System.EventHandler(this.pictureExit_Click);
             this.pictureExit.MouseLeave += new System.EventHandler(this.pictureExit_MouseLeave);
             this.pictureExit.MouseHover += new System.EventHandler(this.pictureExit_MouseHover);
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.Gray;
+            this.label11.Location = new System.Drawing.Point(897, 701);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(280, 20);
+            this.label11.TabIndex = 45;
+            this.label11.Text = "Credit to: Soung Sambo (Coin Maker)";
             // 
             // frmMain
             // 
@@ -511,6 +523,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.ClientSize = new System.Drawing.Size(1264, 738);
+            this.Controls.Add(this.label11);
             this.Controls.Add(this.btnBigAllin);
             this.Controls.Add(this.btnSmallAllin);
             this.Controls.Add(this.pictureExit);
@@ -607,6 +620,7 @@
         private System.Windows.Forms.Button btnSmallAllin;
         private System.Windows.Forms.Button btnBigAllin;
         private System.Windows.Forms.PictureBox pictureExit;
+        private System.Windows.Forms.Label label11;
     }
 }
 
